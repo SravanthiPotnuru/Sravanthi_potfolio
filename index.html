@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sravanthi Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<section class="page intro">
+    <h1 class="wave">
+        <span>W</span><span>e</span><span>l</span><span>c</span><span>o</span><span>m</span><span>e</span>
+        <span> </span>
+        <span>t</span><span>o</span>
+        <span> </span>
+        <span>M</span><span>y</span>
+        <span> </span>
+        <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
+    </h1>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page hero">
+    <div class="left">
+        <h1>Sravanthi Potnuru</h1>
+        <p>
+        An enthusiastic Computer Science graduate with a strong foundation in IT concepts and problem-solving. A
+self-starter and quick learner with a passion for technology, adaptability to new environments, and eagerness to
+contribute to organizational growth. Goal-oriented, dynamic, and capable of working effectively both
+independently and as part of a team. Looking forward to starting an exciting and impactful career in the software
+industry
+
+        <a href="Sravanthi_Potnuru_Resume.pdf" target="_blank">
+            <button>View Resume</button>
+        </a>
+    </div>
+
+    <div class="right">
+        <img src="profile.jpeg" alt="Profile">
+    </div>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page cards">
+
+    <h2>Explore My Work</h2>
+
+    <div class="card-container">
+        <div class="card" onclick="showDetails('projects')">Projects</div>
+        <div class="card" onclick="showDetails('certificates')">Certificates</div>
+        <div class="card" onclick="showDetails('experience')">Experience</div>
+        <div class="card" onclick="showDetails('info')">My Info</div>
+    </div>
+
+    <div id="detailsBox" class="details"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
